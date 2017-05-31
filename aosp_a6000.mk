@@ -33,3 +33,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="Kraft-A6000-user 5.0.2 LRX22G Kraft-A6000_S061_160727 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
+
+# Build Magisk.
+DEFAULT_ROOT_METHOD := magisk
