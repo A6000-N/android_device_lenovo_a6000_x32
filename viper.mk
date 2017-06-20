@@ -14,8 +14,8 @@
 
 $(call inherit-product, device/lenovo/a6000/full_a6000.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common ViperOS stuff.
+$(call inherit-product, vendor/viper/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
@@ -23,7 +23,17 @@ TARGET_BOARD_PLATFORM_VARIANT := msm8916
 # Assert
 TARGET_OTA_ASSERT_DEVICE := Kraft-T,a6000,K30-T,A6000,Kraft-W,Kraft-C,k30t,msm8916,Kraft-A6000,wt86518
 
-PRODUCT_NAME := lineage_a6000
+PRODUCT_NAME := viper_a6000
 BOARD_VENDOR := Lenovo
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
+
+# Boot animation
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1280
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME="A6000"
+
+#OFFICIAL BUILDS
+VIPER_BUILD_TYPE=OFFICIAL
