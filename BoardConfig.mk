@@ -15,7 +15,7 @@
 
 FORCE_32_BIT := true
 
-include device/cyanogen/msm8916-common/BoardConfigCommon.mk
+include device/hyper/msm8916-common/BoardConfigCommon.mk
 
 include device/lenovo/a6000/board/*.mk
 
