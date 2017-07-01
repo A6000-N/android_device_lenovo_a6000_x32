@@ -190,7 +190,7 @@ void init_target_properties()
     if (is2GB()) {
 	property_set("ro.build.product", "Kraft-A6000-s");
         property_set("ro.product.device", "Kraft-A6000-s");
-        property_set("ro.product.model", "Lenovo A6000 Plus");
+        property_set("ro.product.model", "Lenovo A6000");
         property_set("ro.product.name", "Kraft-A6000-s");
     }
     /* A6000 */
@@ -199,7 +199,7 @@ void init_target_properties()
         property_set("ro.product.device", "Kraft-A6000");
         property_set("ro.product.model", "Lenovo A6000");
         property_set("ro.product.name", "Kraft-A6000");
-	property_set("ro.config.low_ram", "true");
+	
     }
 
     property_set("dalvik.vm.heapstartsize", "14m");
