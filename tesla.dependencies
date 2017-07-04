@@ -1,0 +1,34 @@
+[
+  {
+    "remote": "github",
+    "repository": "HyperTeam/android_device_hyper_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+    "branch": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "HyperTeam/android_kernel_hyper_msm8916",
+    "target_path": "kernel/lenovo/a6000",
+    "branch": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "dev-harsh1998/proprietary-vendor_lenovo",
+    "target_path": "vendor/lenovo",
+    "branch": "cm-14.1"
+  },
+  {
+    "repository": "android_external_stlport",
+    "target_path": "external/stlport"
+  }
+  {
+    "repository": "external_sony_boringssl-compat",
+    "target_path": "external/sont/boringssl-compat"
+  }
+]
