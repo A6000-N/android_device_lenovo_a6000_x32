@@ -218,4 +218,7 @@
 
     <bool name="config_uiBlurEnabled">true</bool>
 
+    <!-- Night display  -->
+    <bool name="config_nightDisplayAvailable">true</bool>
+
 </resources>
