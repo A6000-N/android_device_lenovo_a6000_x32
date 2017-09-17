@@ -10,6 +10,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
 
+# Higher fling velocities to smooth scrolling
+# and provide better responsiveness
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.min.fling_velocity=160 \
+    ro.max.fling_velocity=20000
+
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
