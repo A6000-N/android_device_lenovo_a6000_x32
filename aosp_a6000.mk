@@ -34,8 +34,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
-# Build Magisk.
-DEFAULT_ROOT_METHOD := magisk
-
 # Include Bootanimation configuration
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOTANIMATION_PRELOAD 	     := true
+TARGET_BOOTANIMATION_TEXTURE_CACHE   := true
